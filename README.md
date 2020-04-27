@@ -1,4 +1,1 @@
-Mouse-swiper type of game created in mostly Javascript. 
-Feel free to clone this repo and continue to add more levels, I'd love to play them! 
-
-*The cursor should be gooey and a pink bubble, but for some reason when I import my code, it doesnt work as desired. help*
+If anyone would like to add more levels feel free to send a request! Oh, and if anyone can get gold in the last level... screenshot and send to my twitter @gh0sid, that'd be impressive.
