@@ -851,16 +851,16 @@ p {
 }
 
 #bodyht {
-  background-image: url("img/sparta.jpg");
+  background-image: url("img/sparta.jpg") !important;
 }
 
 #bodyht2 {
-  background-image: url("img/red.jpg");
+  background-image: url("img/red.jpg") !important;
   background-size: cover;
 }
 
 #bodyht3 {
-  background-image: url("img/hell2.jpg");
+  background-image: url("img/hell2.jpg") !important;
   background-size: 1500px 850px;
 }
 
