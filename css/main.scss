@@ -130,7 +130,7 @@ box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
         background:#ff9900;
         width:4rem;
         height:4rem;
-        top:5rem;
+        top:15rem;
         left:12rem;
         animation: blobs 22s infinite;
         opacity: .1;
@@ -242,14 +242,14 @@ left: 40rem;}
  left: -1rem;
  font-family: 'Roboto', sans-serif;
  display: none;
- top:-15.5rem;
+ top:-10.5rem;
 
   &_silver {
     color:silver;
     font-size: 5rem;
     position: relative;
     left: 1rem;
-    top:-16.5rem;
+    top:-10.5rem;
 
   display: none;
   font-family: 'Roboto', sans-serif;
@@ -260,7 +260,7 @@ left: 40rem;}
     font-size: 5rem;
     position: relative;
     left: 1rem;
-    top:-16.5rem;
+    top:-10.5rem;
 
   display: none;
   font-family: 'Roboto', sans-serif;
@@ -359,7 +359,7 @@ color: rgb(26, 21, 10);
   font-family: 'Roboto', sans-serif;
   position: relative;
   background-color: slateblue;
-  height: 10rem;
+  height: 8rem;
   padding: 3rem;
   border-radius:10% ;
   color:white;
@@ -395,15 +395,15 @@ img {
 
 #nextLevel {
   font-family: 'Roboto', sans-serif;
-  position: relative;
+  position: absolute;
   background-color: slateblue;
-  height: 7rem !important;
+  height: 3rem !important;
   border-radius:10% ;
   color:white;
-  padding: 2rem;
+  padding: 1rem;
 opacity: .8;
-position: relative;
-top:-7rem;
+top:3rem;
+left: 4rem;
 display: none;
 width:10rem;
 }
@@ -438,9 +438,7 @@ and (-webkit-device-pixel-ratio : 3) { font-size: 10rem; letter-spacing: 6rem; l
  :root { 
     --cursor-size: 40px;
     --bg: rgb(219, 40, 180) 
-    background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* fallback for old browsers */
 
   }
   
@@ -456,9 +454,10 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     pointer-events: none;
     mix-blend-mode: difference;  
     filter: url(#goo);
+    cursor: crosshair;
   }
   
-  .cursor-circle {
+  .cursor-circle { 
     position: absolute;
     top: 0;
     left: 0;
@@ -522,6 +521,8 @@ top: -13rem;
  height: 3rem;
  text-align: center;
  background:hsl(0, 0%, 95%);
+ border-radius: 7%;
+ padding: 1rem;
 
  &:hover {
   box-shadow: 0 .5em .5rem 0 hsla(170, 100%, 50%, 0.4);
@@ -535,12 +536,16 @@ top: -13rem;
   height: 3rem;
   text-align: center;
   background:hsl(0, 0%, 95%);
+  border-radius: 7%;
+  padding: 1rem;
 
   &:hover {
     box-shadow: 0 .5em .5rem 0 hsla(170, 100%, 50%, 0.4);
   }
 
 }
+
+ 
 
 #recordBtn {
   border:none;
@@ -678,27 +683,29 @@ box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
   top:-14rem;
   font-family: 'Roboto Mono', monospace;
   height: 3rem;
-  color:white;
+  color:rgb(255, 255, 255);
 
 }
 
-.backg {
-  background:hsl(224, 63%, 34%) !important;
-  color:white;
-} 
-
-
+.passed1 {
+  height: 10rem !important;
+}
 
 #bodyht {
   background-image: url(../img/sparta.jpg);
 }
-#bodyht2 {
-  background-image: url(../img/red.jpg);
+#bodyhtt {
+  background-image: url(../img/frame.jpeg);
+  background-size: cover;
+
+}
+#bodyht2 { 
+  background-image: url(../img/space.jpeg);
   background-size: cover;
 }
 #bodyht3 {
-  background-image: url(../img/hell2.jpg);
-  background-size: 1500px 850px;
+  background-image: url(../img/hell.jpeg);
+  background-size: cover;
 
 }
  
@@ -836,7 +843,7 @@ box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
   top:180px;
   left:33rem;
   animation: blobs 6s infinite;
-  opacity: .1;
+  opacity: .3;
   box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
 
   }
@@ -848,7 +855,7 @@ box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
   top:-70px;
   left:800px;
   animation: blobs 5s infinite;
-  opacity: .1;
+  opacity: .2;
 
 
   box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
@@ -859,7 +866,7 @@ box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
   background:#00ff4c;
   width:12rem;
   height:12rem;
-  top:7rem;
+  top:17rem;
   left:5rem;
   animation: blobs 4s infinite;
   opacity: .1;
@@ -875,7 +882,7 @@ box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
   height:10rem;
   top:-13rem;
   left:-34rem;
-  opacity: .1;
+  opacity: .2;
   box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
 
   }
@@ -887,7 +894,7 @@ box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
   top:-1rem;
   left:-6rem;
   animation: blobs 3s infinite;
-opacity: .1;
+opacity: .2;
 
 
 box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
@@ -901,9 +908,9 @@ box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
   top:30rem;
   left:-12rem;
   animation: blobs 10s infinite;
-  opacity: .3;
+  opacity: .1;
 
-  box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
+  box-shadow: 0px 0px 33px rgb(59, 173, 218) ; 
 
   }
 
@@ -914,7 +921,7 @@ box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
   top:-3rem;
   left:8rem;
   animation: blobs 22s infinite;
-  opacity: .1;
+  opacity: .2;
 
   box-shadow: 0px 0px 33px rgb(59, 173, 218) ;
 
